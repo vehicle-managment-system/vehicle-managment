@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-image: url('/img/background/bg1.jpg');
+                color: #fff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -49,7 +49,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -83,9 +83,10 @@
                 <div class="title m-b-md">
                     OSTA 
                 </div><span>Vehicle Management System</span>
-
+                
                
             </div>
+            
         </div>
     </body>
 </html>
