@@ -86,7 +86,21 @@
                 
                
             </div>
+
             
         </div>
+        <div class="container">
+            <div class="row">
+                 <div class="jumbotron">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis veniam sit officia illo incidunt consequatur recusandae cum libero fugiat inventore, odit iure. Doloremque, illo culpa? Minima reprehenderit at vitae eos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem cupiditate recusandae sunt accusantium tenetur laudantium aut magnam ab culpa ad quo, a hic libero ex corporis labore ducimus earum!lorem  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste numquam nobis nulla expedita voluptates aliquam ipsa quod, veniam optio esse magni eum mollitia quia, iusto id facilis eveniet quibusdam neque.</p>
+            <br><br>
+            <div class="col-lg-3 col-md-3">
+                <img src="img/logo/carlogo.jpg" alt="..." height="600px" width="600px">
+            </div>
+            </div>
+        </div>
+            </div>
+           
+        
     </body>
 </html>

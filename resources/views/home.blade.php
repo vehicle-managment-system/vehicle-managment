@@ -14,7 +14,15 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in! <br>
+                     <h1>
+        WELCOME | {{ Auth::user()->name }}
+        
+      </h1>
+                    List of car assigners!
+                    @foreach ($assigners as $assigner )
+                        <li>{{ $assigner->name }}</li>
+                    @endforeach
                 </div>
             </div>
         </div>
