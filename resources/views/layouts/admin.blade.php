@@ -274,7 +274,9 @@ desired effect
           </a>
           <ul class="treeview-menu">
             <li><a href="/makerequest">Make Request</a></li>
-            <li><a href="/viewrequest">View Request</a></li>
+            <li><a href="/viewrequest">View Request(IR)</a></li>
+            <li><a href="/allrequest">View Request(All)</a></li>
+
           </ul>
         </li>
       </ul>

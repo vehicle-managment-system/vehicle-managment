@@ -43,8 +43,8 @@
             </tr>
         </tbody>
 </table> 
- @foreach ($samples as $samples )
-      <li>  {{ $samples->Name }}</li>
-    @endforeach
+ @foreach ($sample as $sample )
+      <li>  {{ $sample->Name }}</li>
+@endforeach
 
 @endsection

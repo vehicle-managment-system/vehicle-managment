@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Requestt;
-use App\Sample;
+use App\Role;
 use Illuminate\Http\Request;
 
-class RequesttsController extends Controller
+class RoleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +15,6 @@ class RequesttsController extends Controller
     public function index()
     {
         //
-        return view('Requests.makerequest');
     }
 
     /**
@@ -43,22 +41,21 @@ class RequesttsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Requestt  $requestt
+     * @param  \App\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function show(Requestt $requestt)
+    public function show(Role $role)
     {
         //
-        return view('Requests.viewrequest');
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Requestt  $requestt
+     * @param  \App\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function edit(Requestt $requestt)
+    public function edit(Role $role)
     {
         //
     }
@@ -67,29 +64,22 @@ class RequesttsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Requestt  $requestt
+     * @param  \App\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Requestt $requestt)
+    public function update(Request $request, Role $role)
     {
-        //TODO
-
+        //
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Requestt  $requestt
+     * @param  \App\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Requestt $requestt)
+    public function destroy(Role $role)
     {
         //
-    }
-    public function detail(Requestt $requestt)
-    {
-        $sample = Sample::all();
-        // return view('Requests.detailrequest',  ['samples' => $sample]);
-        return view('Requests.detailrequest', compact('sample'));
     }
 }

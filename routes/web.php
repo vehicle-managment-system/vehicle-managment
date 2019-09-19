@@ -25,3 +25,11 @@ Route::get('makerequest', 'RequesttsController@index');
 Route::get('viewrequest', 'RequesttsController@show');
 
 Route::get('detailrequest', 'RequesttsController@detail');
+
+Route::get('/allrequest', function () {
+    return view('Requests.resource');
+});
+
+Route::get('/detailresource', function () {
+    return view('Requests.resourcedetail');
+});
