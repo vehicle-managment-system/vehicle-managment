@@ -80,7 +80,7 @@
                 <textarea class="form-control" name="" disabled placeholder="sample reason" ></textarea>
               </div>
             </div>
-          </div>
+          </div><br>
         <div class="form-group" style="margin-left:30%;">
               <input type="submit" class="btn btn-primary" value="Approve">
               <input type="submit" class="btn btn-danger" value="Reject">
